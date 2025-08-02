@@ -1,4 +1,4 @@
-mport pandas as pd
+import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
@@ -60,5 +60,6 @@ rfc.fit(X_train,y_train)
 y_pred = rfc.predict(X_test)
 
 from sklearn.metrics import classification_report
+
 
 print(classification_report(y_test,y_pred))
